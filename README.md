@@ -29,6 +29,7 @@ Geolocation: Browser's built-in geolocation API
 
 📸 Screenshot
 
+![Weather Calculator Screenshot](screenshot.png)
 
 
 🚀 How to Use
