@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>🌤 Weather Calculator</h1>
+
+    <div class="controls">
+      <input id="city" placeholder="Enter city (eg. Dhaka)" />
+      <div class="buttons">
+        <button id="btnSearch">Get Weather</button>
+        <button id="btnLocate">Use my location</button>
+      </div>
+    </div>
+
+    <div id="result" class="result">Type a city and click "Get Weather".</div>
+    <small class="hint">Data from Open-Meteo (no API key)</small>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
